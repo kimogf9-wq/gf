@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="مؤيد محجوب عثمان عبدالله — مطور مواقع وأنظمة إدارية وتطبيقات أندرويد باستخدام الذكاء الاصطناعي، وصاحب أفكار ومشاريع تقنية للمساهمة في بناء السودان.">
+  <meta name="keywords" content="مؤيد محجوب عثمان عبدالله, مطور مواقع, أنظمة إدارية, تطبيقات أندرويد, الذكاء الاصطناعي, مبرمج سوداني">
+  <meta property="og:title" content="مؤيد محجوب عثمان عبدالله | مطور مواقع وأنظمة وتطبيقات">
+  <meta property="og:description" content="أحوّل الأفكار إلى حلول رقمية تخدم الناس وتساهم في بناء السودان.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="moayad-mahjoub-osman-abdullah.jpg">
+  <meta name="author" content="مؤيد محجوب عثمان عبدالله">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "مؤيد محجوب عثمان عبدالله",
+    "jobTitle": "مطور مواقع وأنظمة إدارية وتطبيقات أندرويد بمساعدة الذكاء الاصطناعي",
+    "image": "moayad-mahjoub-osman-abdullah.jpg",
+    "address": {"@type": "PostalAddress", "addressLocality": "القضارف", "addressCountry": "السودان"},
+    "telephone": "+249914040157"
+  }
+  </script>
+  <title>مؤيد محجوب عثمان عبدالله | مطور مواقع وأنظمة وتطبيقات</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07111f;
+      --bg-soft: #0b1728;
+      --panel: rgba(17, 32, 52, .78);
+      --panel-solid: #101f33;
+      --text: #f4f7fb;
+      --muted: #a9b8cb;
+      --line: rgba(180, 203, 230, .14);
+      --green: #45e0ad;
+      --blue: #6ea8ff;
+      --purple: #b49aff;
+      --radius: 24px;
+      --shadow: 0 24px 70px rgba(0,0,0,.25);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    body {
+      margin: 0; color: var(--text); background:
+        radial-gradient(ellipse at 8% 5%, rgba(57, 122, 255, .14), transparent 30%),
+        radial-gradient(ellipse at 92% 20%, rgba(69, 224, 173, .10), transparent 28%),
+        var(--bg);
+      font-family: "Cairo", sans-serif; line-height: 1.85; overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+    .container { width: min(1160px, calc(100% - 40px)); margin-inline: auto; }
+    .topbar {
+      position: sticky; top: 0; z-index: 20; backdrop-filter: blur(18px);
+      background: rgba(7,17,31,.78); border-bottom: 1px solid var(--line);
+    }
+    .nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 22px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 900; letter-spacing: -.4px; }
+    .brand-mark {
+      width: 42px; height: 42px; display: grid; place-items: center; border-radius: 14px;
+      color: #07111f; font-family: "IBM Plex Mono", monospace; font-weight: 600;
+      background: linear-gradient(135deg, var(--green), var(--blue)); box-shadow: 0 8px 28px rgba(69,224,173,.18);
+    }
+    .brand small { display: block; color: var(--muted); font-size: 11px; font-weight: 600; margin-top: -5px; }
+    .nav-links { display: flex; align-items: center; gap: 24px; color: var(--muted); font-size: 14px; }
+    .nav-links a:hover { color: var(--green); }
+    .nav-cta, .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+      padding: 12px 18px; border-radius: 14px; font-weight: 800; transition: .25s ease;
+    }
+    .nav-cta, .btn-primary { color: #06131c; background: var(--green); box-shadow: 0 10px 30px rgba(69,224,173,.13); }
+    .nav-cta:hover, .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 14px 34px rgba(69,224,173,.24); }
+    .btn-secondary { border: 1px solid var(--line); background: rgba(255,255,255,.035); }
+    .btn-secondary:hover { border-color: rgba(69,224,173,.5); transform: translateY(-3px); }
+    .menu-toggle { display: none; background: transparent; border: 1px solid var(--line); color: white; border-radius: 12px; padding: 8px 12px; }
+    .hero { padding: 92px 0 74px; position: relative; }
+    .hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; align-items: center; gap: 62px; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: var(--green); border: 1px solid rgba(69,224,173,.23); background: rgba(69,224,173,.07); padding: 7px 13px; border-radius: 99px; font-size: 13px; font-weight: 800; }
+    .pulse { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 5px rgba(69,224,173,.12); }
+    h1 { font-size: clamp(34px, 5vw, 60px); line-height: 1.35; letter-spacing: -1.5px; margin: 20px 0 16px; font-weight: 900; }
+    .gradient-text { background: linear-gradient(100deg, var(--green), #8bbaff 60%, var(--purple)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .hero-copy { max-width: 670px; color: var(--muted); font-size: 17px; margin: 0 0 26px; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 28px; }
+    .mini-facts { display: flex; flex-wrap: wrap; gap: 18px; color: #d4dfed; font-size: 13px; }
+    .mini-facts span { display: inline-flex; align-items: center; gap: 7px; }
+    .mini-facts b { color: var(--green); font-family: "IBM Plex Mono", monospace; }
+    .visual-wrap { position: relative; min-height: 410px; display: grid; place-items: center; }
+    .orbit { width: min(100%, 400px); aspect-ratio: 1; border: 1px solid rgba(132,172,226,.17); border-radius: 50%; display: grid; place-items: center; position: relative; background: radial-gradient(circle, rgba(110,168,255,.10), transparent 65%); }
+    .orbit::before, .orbit::after { content: ""; position: absolute; border: 1px dashed rgba(69,224,173,.25); border-radius: 50%; inset: 11%; }
+    .orbit::after { inset: 23%; border-color: rgba(180,154,255,.28); }
+    .profile-photo {
+      position: relative; z-index: 1; width: 230px; height: 285px; object-fit: cover; object-position: center 25%;
+      border-radius: 34px; border: 2px solid rgba(69,224,173,.65); transform: rotate(-3deg);
+      box-shadow: 0 30px 70px rgba(0,0,0,.45), 0 0 40px rgba(69,224,173,.10);
+    }
+    .monogram {
+      position: relative; z-index: 1; width: 185px; height: 185px; border-radius: 48px;
+      display: grid; place-items: center; transform: rotate(-5deg);
+      background: linear-gradient(145deg, #152c43, #0c1728);
+      border: 1px solid rgba(255,255,255,.16); box-shadow: 0 30px 70px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.12);
+    }
+    .monogram span { font-family: "IBM Plex Mono", monospace; font-size: 56px; font-weight: 600; letter-spacing: -8px; color: var(--green); transform: rotate(5deg); }
+    .float-card { position: absolute; z-index: 2; padding: 12px 15px; background: rgba(14,29,47,.94); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); font-size: 12px; color: var(--muted); }
+    .float-card strong { display: block; color: var(--text); font-size: 14px; }
+    .float-one { top: 48px; right: -4px; } .float-two { bottom: 55px; left: -7px; }
+    .float-three { bottom: 18px; right: 32px; color: var(--green); }
+    .section { padding: 78px 0; }
+    .section-head { max-width: 740px; margin-bottom: 32px; }
+    .section-kicker { color: var(--green); text-transform: uppercase; font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: 1.4px; }
+    h2 { font-size: clamp(27px, 3.5vw, 40px); line-height: 1.4; margin: 7px 0 12px; letter-spacing: -.6px; }
+    .section-head p { color: var(--muted); margin: 0; }
+    .about-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 22px; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; box-shadow: var(--shadow); }
+    .quote-card { background: linear-gradient(140deg, rgba(69,224,173,.10), rgba(110,168,255,.06)); }
+    .quote-mark { color: var(--green); font-size: 40px; line-height: 1; }
+    .quote-card p { font-size: 21px; font-weight: 800; margin: 8px 0 18px; }
+    .quote-card small { color: var(--muted); }
+    .about-text p { color: var(--muted); margin-top: 0; }
+    .pill-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+    .pill { border: 1px solid var(--line); color: #dbe8f6; padding: 6px 11px; border-radius: 99px; font-size: 12px; background: rgba(255,255,255,.025); }
+    .skills-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .skill { padding: 22px; border-radius: 20px; background: var(--panel); border: 1px solid var(--line); transition: .25s ease; }
+    .skill:hover, .project:hover { transform: translateY(-5px); border-color: rgba(69,224,173,.36); }
+    .skill-icon { width: 45px; height: 45px; display: grid; place-items: center; border-radius: 14px; background: rgba(69,224,173,.09); color: var(--green); font-size: 21px; margin-bottom: 13px; }
+    .skill h3 { margin: 0 0 5px; font-size: 16px; }
+    .skill p { margin: 0; color: var(--muted); font-size: 13px; }
+    .projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+    .project { position: relative; overflow: hidden; display: flex; flex-direction: column; min-height: 265px; transition: .25s ease; }
+    .project::before { content: ""; position: absolute; width: 180px; height: 180px; border-radius: 50%; top: -105px; left: -75px; background: rgba(110,168,255,.08); pointer-events: none; }
+    .project-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; position: relative; }
+    .project-icon { width: 48px; height: 48px; border-radius: 15px; display: grid; place-items: center; background: rgba(110,168,255,.12); color: #a8c9ff; font-size: 22px; }
+    .project-type { color: var(--green); border: 1px solid rgba(69,224,173,.22); border-radius: 99px; padding: 4px 10px; font-size: 11px; white-space: nowrap; }
+    .project h3 { font-size: 21px; margin: 16px 0 6px; }
+    .project p { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+    .project-link { margin-top: auto; display: inline-flex; align-items: center; gap: 8px; color: var(--green); font-weight: 800; font-size: 13px; }
+    .project-link:hover { gap: 13px; }
+    .vision { background: linear-gradient(120deg, rgba(69,224,173,.08), rgba(110,168,255,.06)); border: 1px solid rgba(69,224,173,.18); border-radius: 30px; padding: clamp(24px, 5vw, 46px); display: grid; grid-template-columns: 1fr .75fr; gap: 35px; align-items: center; }
+    .vision p { color: var(--muted); }
+    .vision-list { display: grid; gap: 12px; }
+    .vision-item { display: flex; align-items: flex-start; gap: 12px; background: rgba(7,17,31,.42); border: 1px solid var(--line); padding: 14px; border-radius: 16px; }
+    .check { color: var(--green); font-size: 20px; }
+    .vision-item strong { display: block; font-size: 14px; }
+    .vision-item small { color: var(--muted); font-size: 12px; }
+    .timeline { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .timeline::before { content: ""; position: absolute; top: 24px; right: 9%; left: 9%; height: 1px; background: linear-gradient(90deg, transparent, rgba(69,224,173,.5), transparent); }
+    .milestone { position: relative; padding: 26px 22px; border-radius: 20px; background: var(--panel); border: 1px solid var(--line); }
+    .year { display: inline-block; color: var(--green); font-family: "IBM Plex Mono", monospace; font-size: 13px; font-weight: 600; background: rgba(69,224,173,.09); border-radius: 9px; padding: 5px 9px; }
+    .milestone h3 { margin: 13px 0 5px; font-size: 17px; }
+    .milestone p { color: var(--muted); font-size: 13px; margin: 0; }
+    .contact-box { text-align: center; padding: clamp(30px, 6vw, 62px); border-radius: 30px; border: 1px solid var(--line); background: radial-gradient(ellipse at top, rgba(69,224,173,.10), transparent 55%), var(--panel); }
+    .contact-box p { color: var(--muted); max-width: 650px; margin: 0 auto 24px; }
+    .contact-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
+    footer { padding: 26px 0 34px; color: var(--muted); font-size: 12px; }
+    .footer-inner { display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 22px; }
+    .whatsapp-float { position: fixed; z-index: 25; bottom: 22px; left: 22px; width: 54px; height: 54px; display: grid; place-items: center; border-radius: 18px; color: #06131c; background: var(--green); box-shadow: 0 10px 35px rgba(69,224,173,.3); font-size: 25px; transition: .2s; }
+    .whatsapp-float:hover { transform: translateY(-4px) scale(1.03); }
+    .reveal { opacity: 0; transform: translateY(18px); transition: opacity .65s ease, transform .65s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 20px; }
+      .hero { padding-top: 58px; }
+      .visual-wrap { min-height: 330px; }
+      .orbit { width: 310px; }
+      .profile-photo {
+      position: relative; z-index: 1; width: 230px; height: 285px; object-fit: cover; object-position: center 25%;
+      border-radius: 34px; border: 2px solid rgba(69,224,173,.65); transform: rotate(-3deg);
+      box-shadow: 0 30px 70px rgba(0,0,0,.45), 0 0 40px rgba(69,224,173,.10);
+    }
+    .profile-photo { width: 205px; height: 250px; border-radius: 28px; } .monogram { width: 145px; height: 145px; border-radius: 38px; }
+      .monogram span { font-size: 45px; }
+      .about-grid, .vision { grid-template-columns: 1fr; }
+      .skills-grid { grid-template-columns: repeat(2, 1fr); }
+      .nav-links { gap: 14px; }
+      .nav-links a { font-size: 12px; }
+    }
+    @media (max-width: 620px) {
+      .container { width: min(100% - 28px, 1160px); }
+      .nav { min-height: 68px; }
+      .brand { font-size: 13px; }
+      .brand-mark { width: 38px; height: 38px; }
+      .menu-toggle { display: block; }
+      .nav-cta { display: none; }
+      .nav-links { display: none; position: absolute; top: 68px; right: 0; left: 0; padding: 18px 22px 22px; background: rgba(7,17,31,.98); border-bottom: 1px solid var(--line); flex-direction: column; align-items: stretch; gap: 4px; }
+      .nav-links.open { display: flex; }
+      .nav-links a { padding: 8px 4px; font-size: 14px; }
+      h1 { letter-spacing: -.8px; }
+      .hero-copy { font-size: 15px; }
+      .hero-actions .btn { flex: 1 1 100%; }
+      .mini-facts { gap: 10px 15px; }
+      .section { padding: 56px 0; }
+      .skills-grid, .projects-grid, .timeline { grid-template-columns: 1fr; }
+      .timeline::before { display: none; }
+      .card { padding: 21px; }
+      .float-one { right: -3px; top: 23px; }
+      .float-two { left: -2px; bottom: 32px; }
+      .float-three { right: 8px; bottom: 3px; }
+      .contact-actions .btn { width: 100%; }
+      .whatsapp-float { bottom: 15px; left: 15px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="العودة إلى الرئيسية">
+        <span class="brand-mark">MO</span>
+        <span>مؤيد محجوب عثمان عبدالله<small>مطور مواقع وأنظمة وتطبيقات</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="navLinks" aria-label="القائمة الرئيسية">
+        <a href="#about">من أنا</a>
+        <a href="#skills">المهارات</a>
+        <a href="#projects">أعمالي</a>
+        <a href="#vision">رؤيتي للسودان</a>
+        <a href="#journey">رحلتي</a>
+        <a href="#contact">تواصل معي</a>
+      </nav>
+      <a class="nav-cta" href="#contact">خلينا نتعاون <span>↙</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <div class="eyebrow"><span class="pulse"></span> مطوّر رقمي وصاحب أفكار تقنية</div>
+          <h1>أنا مؤيد محجوب عثمان عبدالله،<br><span class="gradient-text">أحوّل الأفكار إلى حلول رقمية.</span></h1>
+          <p class="hero-copy">مطور مواقع إلكترونية وأنظمة إدارية وتطبيقات أندرويد بالاستعانة بالذكاء الاصطناعي (AI). أؤمن أن التقنية ليست مجرد كود؛ بل وسيلة لحل المشكلات، وتسهيل حياة الناس، والمساهمة في بناء السودان.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">شاهد أعمالي <span>↙</span></a>
+            <a class="btn btn-secondary" href="https://wa.me/249914040157" target="_blank" rel="noopener noreferrer">تواصل معي عبر واتساب <span>↗</span></a>
+          </div>
+          <div class="mini-facts">
+            <span><b>01</b> حلول رقمية</span>
+            <span><b>02</b> أفكار تخدم المجتمع</span>
+            <span><b>03</b> تعلّم وتطوير مستمر</span>
+          </div>
+        </div>
+        <div class="visual-wrap reveal" aria-label="هوية بصرية لمؤيد">
+          <div class="orbit">
+            <img class="profile-photo" src="moayad-mahjoub-osman-abdullah.jpg" alt="صورة مؤيد محجوب عثمان عبدالله، مطور مواقع وأنظمة إدارية وتطبيقات أندرويد" width="230" height="285" fetchpriority="high">
+          </div>
+          <div class="float-card float-one"><strong>Web &amp; Systems</strong>مواقع وأنظمة إدارية</div>
+          <div class="float-card float-two"><strong>Android Apps</strong>تطبيقات وأفكار تقنية</div>
+          <div class="float-card float-three">AI-assisted development ✦</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-kicker">01 / من أنا</div>
+          <h2>طموحي أكبر من نقطة البداية.</h2>
+          <p>رحلة بدأت بالتعلّم الذاتي، وما زالت مستمرة بالإصرار والتجربة وصناعة الأفكار.</p>
+        </div>
+        <div class="about-grid">
+          <div class="card quote-card reveal">
+            <div class="quote-mark">“</div>
+            <p>أطمح إلى توظيف التكنولوجيا والذكاء الاصطناعي في ابتكار حلول عملية تساهم في بناء السودان وخدمة مواطنيه.</p>
+            <small>— مؤيد محجوب عثمان عبدالله</small>
+          </div>
+          <div class="card about-text reveal">
+            <p>أنا مؤيد محجوب عثمان عبدالله، من السودان، ولاية القضارف، وسط القضارف، قرية رفاعة. أصف نفسي بأنني شخص طموح يؤمن بأن التعلّم المستمر والعمل على الأفكار يمكن أن يصنعا فرقاً حقيقياً.</p>
+            <p>درست حتى الصف الأول الثانوي، ثم واصلت تطوير نفسي بالتعلّم الذاتي؛ بدأت تعلّم اللغة الإنجليزية عام 2017، وبدأت تعلّم الحاسوب عام 2019. وفي عام 2023 صنعت أول مشروع لي، ومنذ ذلك الوقت واصلت التفكير في حلول تقنية لمشكلات الحياة اليومية.</p>
+            <div class="pill-row">
+              <span class="pill">تعلّم ذاتي</span><span class="pill">تطوير مواقع</span><span class="pill">أنظمة إدارية</span><span class="pill">تطبيقات أندرويد</span><span class="pill">الذكاء الاصطناعي</span><span class="pill">ابتكار حلول للسودان</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-kicker">02 / مجالات عملي</div>
+          <h2>تقنية بهدف واضح.</h2>
+          <p>أستخدم أدوات التطوير والذكاء الاصطناعي للمساعدة في تحويل الأفكار إلى نماذج ومشاريع رقمية قابلة للتطوير.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill reveal"><div class="skill-icon">⌘</div><h3>تطوير المواقع</h3><p>تصميم وبناء مواقع إلكترونية متجاوبة مع الهواتف والحواسيب.</p></article>
+          <article class="skill reveal"><div class="skill-icon">▤</div><h3>الأنظمة الإدارية</h3><p>أفكار لأنظمة تساعد في تنظيم البيانات والإجراءات اليومية.</p></article>
+          <article class="skill reveal"><div class="skill-icon">▣</div><h3>تطبيقات أندرويد</h3><p>تطوير أفكار تطبيقات وخدمات رقمية للأجهزة المحمولة.</p></article>
+          <article class="skill reveal"><div class="skill-icon">✳</div><h3>البرمجة بمساعدة AI</h3><p>الاستفادة من الذكاء الاصطناعي في بناء النماذج وتسريع التطوير والتعلّم.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-kicker">03 / نماذج من أعمالي</div>
+          <h2>مشاريع نفّذتها على الويب.</h2>
+          <p>هذه نماذج من المواقع التي عملت عليها. اضغط على أي مشروع لفتحه واستكشافه.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="card project reveal">
+            <div class="project-top"><div class="project-icon">✈</div><span class="project-type">سفر وسياحة</span></div>
+            <h3>أنا السودان للسفر</h3>
+            <p>موقع ضمن أعمالي في مجال السفر والخدمات السياحية.</p>
+            <a class="project-link" href="https://asmedia483-cmd.github.io/-/?r=marketer80326" target="_blank" rel="noopener noreferrer">زيارة المشروع <span>↗</span></a>
+          </article>
+          <article class="card project reveal">
+            <div class="project-top"><div class="project-icon">◇</div><span class="project-type">سفر وسياحة</span></div>
+            <h3>الأسطورة للسفر</h3>
+            <p>موقع إلكتروني لخدمات السفر، ضمن النماذج التي أعمل على تطويرها.</p>
+            <a class="project-link" href="https://asmedia483-cmd.github.io/alostura/" target="_blank" rel="noopener noreferrer">زيارة المشروع <span>↗</span></a>
+          </article>
+          <article class="card project reveal">
+            <div class="project-top"><div class="project-icon">◈</div><span class="project-type">أزياء وملابس</span></div>
+            <h3>Enzo للملابس</h3>
+            <p>موقع لعلامة ملابس، يعرض الهوية والمنتجات بصورة إلكترونية.</p>
+            <a class="project-link" href="https://mrkzalbrwfllasnan-art.github.io/Enzo/" target="_blank" rel="noopener noreferrer">زيارة المشروع <span>↗</span></a>
+          </article>
+          <article class="card project reveal">
+            <div class="project-top"><div class="project-icon">⌂</div><span class="project-type">ضيافة وفنادق</span></div>
+            <h3>La Posh Hotel</h3>
+            <p>موقع فندق ضمن أعمالي في تصميم وتطوير المواقع الإلكترونية.</p>
+            <a class="project-link" href="https://mrkzalbrwfllasnan-art.github.io/La-Posh-Hotel/" target="_blank" rel="noopener noreferrer">زيارة المشروع <span>↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="vision">
+      <div class="container">
+        <div class="vision reveal">
+          <div>
+            <div class="section-kicker">04 / فكرة للمستقبل</div>
+            <h2>تقنية صحية أكثر ترابطاً لخدمة السودان.</h2>
+            <p>من الأفكار التي أطمح إلى تطويرها منصة رقمية تربط بين الطبيب والصيدلية والمعمل والمستشفى، للمساعدة في تنظيم المعلومات الطبية وتسريع الوصول إلى الخدمة المناسبة، مع حماية خصوصية المرضى وضمان أن الوصول إلى البيانات يتم بإذن وصلاحيات واضحة.</p>
+            <p>تقوم الفكرة على تقليل الاعتماد على الأوراق، وتسهيل متابعة الحالات، ودعم اتخاذ القرار الطبي في الوقت المناسب. وهي رؤية تحتاج إلى شراكات مع الجهات الصحية والمتخصصين، وإلى الالتزام بالقوانين وأمن المعلومات قبل التطبيق الفعلي.</p>
+          </div>
+          <div class="vision-list">
+            <div class="vision-item"><span class="check">✓</span><div><strong>ربط الوصفة الطبية بالصيدلية</strong><small>تسهيل معرفة مكان توفر الدواء وصرفه بطريقة منظمة.</small></div></div>
+            <div class="vision-item"><span class="check">✓</span><div><strong>تبادل نتائج الفحوصات</strong><small>إيصال النتائج للطبيب المختص ضمن نظام آمن ومصرّح به.</small></div></div>
+            <div class="vision-item"><span class="check">✓</span><div><strong>سجل طبي أكثر تنظيماً</strong><small>مساعدة الفريق الطبي في الوصول إلى المعلومات اللازمة عند الحاجة وبصلاحيات مناسبة.</small></div></div>
+            <div class="vision-item"><span class="check">✓</span><div><strong>بيانات فصائل الدم</strong><small>فكرة لإنشاء قاعدة بيانات موثوقة ومحمية يمكن أن تدعم الاستجابة للحالات الطارئة.</small></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="journey">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-kicker">05 / رحلتي</div>
+          <h2>كل خطوة صنعت بداية جديدة.</h2>
+          <p>محطات أساسية في رحلتي مع التعلّم والتقنية.</p>
+        </div>
+        <div class="timeline">
+          <article class="milestone reveal"><span class="year">2017</span><h3>بداية تعلّم الإنجليزية</h3><p>بدأت رحلة تعلّم اللغة الإنجليزية وتوسيع أدواتي للتعلّم والوصول إلى المعرفة.</p></article>
+          <article class="milestone reveal"><span class="year">2019</span><h3>بداية تعلّم الحاسوب</h3><p>بدأ اهتمامي العملي بالحاسوب والتقنية، خطوة نحو بناء مهارات رقمية.</p></article>
+          <article class="milestone reveal"><span class="year">2023</span><h3>أول مشروع تقني</h3><p>عملت على فكرة تطبيق يجمع حجوزات الباصات والفنادق وسيارات الأجرة والخدمات الأخرى في منصة واحدة.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div class="section-kicker">06 / لنعمل معاً</div>
+          <h2>عندك فكرة؟ خلينا نحولها إلى مشروع.</h2>
+          <p>أرحب بالتواصل والتعاون في مشاريع المواقع الإلكترونية والأنظمة الإدارية والتطبيقات والأفكار التقنية التي تصنع أثراً إيجابياً.</p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="https://wa.me/249914040157" target="_blank" rel="noopener noreferrer">راسلني على واتساب <span>↗</span></a>
+            <a class="btn btn-secondary" href="#projects">استكشف أعمالي <span>↑</span></a>
+          </div>
+          <div class="pill-row" style="justify-content:center;margin-top:22px">
+            <span class="pill">مؤيد محجوب عثمان عبدالله</span><span class="pill">السودان — القضارف</span><span class="pill">واتساب: 0914040157</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> مؤيد محجوب عثمان عبدالله. جميع الحقوق محفوظة.</span>
+      <span>صُنع بالطموح والتعلّم المستمر ✦</span>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/249914040157" target="_blank" rel="noopener noreferrer" aria-label="التواصل عبر واتساب" title="تواصل عبر واتساب">✆</a>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+      menuToggle.textContent = isOpen ? '✕' : '☰';
+    });
+    navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.textContent = '☰';
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
